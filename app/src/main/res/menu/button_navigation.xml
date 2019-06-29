@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navi_study"
+        android:icon="@drawable/ic_group_work_black_24dp"
+        android:title="勉強する"/>
+    <item android:id="@+id/navi_quiz"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:title="クイズ作成"/>
+    <item android:id="@+id/navi_setting"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="設定"/>
+</menu>
