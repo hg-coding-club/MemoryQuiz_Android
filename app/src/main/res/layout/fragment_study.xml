@@ -15,7 +15,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="勉強する"
+        android:text="@string/study"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,23 +25,23 @@
         android:id="@+id/singleButton"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        app:layout_constraintWidth_percent="0.45"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginBottom="8dp"
-        android:text="シングル"
+        android:text="@string/single"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.45" />
 
     <Button
         android:id="@+id/multiButton"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        app:layout_constraintWidth_percent="0.45"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="マルチ"
+        android:text="@string/multi"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.45" />
 </android.support.constraint.ConstraintLayout>

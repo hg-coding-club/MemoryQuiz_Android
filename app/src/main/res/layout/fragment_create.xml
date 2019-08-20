@@ -6,8 +6,7 @@
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="クイズ作成"
-        android:textSize="30sp"
         android:layout_centerHorizontal="true"
-        />
+        android:text="@string/create"
+        android:textSize="30sp" />
 </RelativeLayout>

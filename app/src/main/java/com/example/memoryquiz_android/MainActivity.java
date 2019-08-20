@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         bottomNav.setOnNavigationItemSelectedListener(navListener);
     }
 
+
+    //Link frgament to navigation bar
     private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     selectedFragment = new StudyFragment();
                     break;
                 case R.id.navi_quiz:
-                    selectedFragment = new QuizFragment();
+                    selectedFragment = new CreateFragment();
                     break;
                 case R.id.navi_setting:
                     selectedFragment = new SettingFragment();

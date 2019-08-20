@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">memoryQuiz_Android</string>
+    <string name="app_name">memoriQuiz_Android</string>
+
+    <string name="study">Study</string>
+    <string name="single">Single Player</string>
+    <string name="multi">Multi Player</string>
+
+    <string name="create">Create</string>
+
+    <string name="settings">Settings</string>
+
+
 </resources>

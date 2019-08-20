@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">memoryQuiz_Android</string>
+    <string name="app_name">memoriQuiz_Android</string>
+
+    <string name="study">勉強</string>
+    <string name="single">シングル</string>
+    <string name="multi">マルチ</string>
+
+    <string name="create">作成</string>
+
+    <string name="settings">設定</string>
 </resources>
